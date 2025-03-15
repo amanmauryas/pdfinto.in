@@ -256,8 +256,6 @@ const HomePage: React.FC<{ searchQuery: string; onSearch: (query: string) => voi
   return (
     <>
       <Routes>
-
-        <Route path="/pdf_to_word" element={<PdfToWord />} />
         <Route path="/premium-ai" element={<PremiumAI />} />
         <Route path="/signin" element={<SignInPage />} />
       </Routes>
@@ -285,6 +283,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage searchQuery={searchQuery} onSearch={handleSearch} />} />
           <Route path="/premium-ai" element={<PremiumAI />} />
           <Route path="/signin" element={<SignInPage />} />
+          <Route path="/pdf_to_word" element={<PdfToWord />} />
         </Routes>
         <Footer />
       </div>

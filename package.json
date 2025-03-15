@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
     "axios": "^1.8.3",
     "clsx": "^2.1.0",
     "firebase": "^11.4.0",
